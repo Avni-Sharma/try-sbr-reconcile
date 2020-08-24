@@ -1,0 +1,16 @@
+apiVersion: apps.openshift.io/v1alpha1
+kind: ServiceBindingRequest
+metadata:
+  name: binding-request
+spec:
+  backingServiceSelectors:
+    - group: stable.example.com
+      version: v1
+      kind: Backend
+      resourceRef: backend-demo
+      id: SBR
+  customEnvVar:
+    - name: CustomAvniiii
+      value: '{{ .SBR.status.avni }}'
+    - name: CustomHost
+      value: '{{ .SBR.spec.host }}'
