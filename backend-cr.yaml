@@ -7,4 +7,4 @@ metadata:
     servicebindingoperator.redhat.io/status.avni: 'binding:env:attribute'
     servicebindingoperator.redhat.io/spec.host: 'binding:env:attribute'
 spec:
-  host: example.common
+  host: example.common.org
