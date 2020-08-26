@@ -1,7 +1,6 @@
 The reconciler shows logs of watches on the backend CRD
 
 ```
-```
 2020-08-25T07:50:03.192+0530	DEBUG	watch.CSVToWatcherMapper	Adding watch for GVK	{"Obj.NamespacedName": "default/backend-operator.v0.1.0", "GVK": "stable.example.com/v1, Kind=Backend"}
 2020-08-25T07:50:03.192+0530	DEBUG	sbrcontroller	Adding watch for GVK...	{"GVK": "stable.example.com/v1, Kind=Backend"}
 2020-08-25T07:50:03.192+0530	DEBUG	sbrcontroller	Skipping watch on GVK twice, it's already under watch!	{"GVK": "stable.example.com/v1, Kind=Backend"}
