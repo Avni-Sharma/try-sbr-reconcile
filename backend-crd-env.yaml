@@ -16,3 +16,5 @@ spec:
     kind: Backend
     shortNames:
       - bk
+  subresources:
+    status: {}
